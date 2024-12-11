@@ -1,0 +1,107 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #1e90ff, #007bff);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.form-wrapper {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.form-wrapper h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.toggle-button {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.toggle-button:not(.active):hover {
+  background-color: #e0e0e0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 15px;
+  align-self: flex-end;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+form p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+form a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+form a:hover {
+  text-decoration: underline;
+}
